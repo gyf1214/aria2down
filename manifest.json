@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Aria2 Download",
+  "name": "Aria2 Down",
   "description": "Download everything via aria2",
   "version": "0.1.0",
   "icons": {
