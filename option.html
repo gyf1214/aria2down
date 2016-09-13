@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Aria2 Download Options</title>
+        <script src="jquery.min.js" charset="utf-8"></script>
+        <script src="jquery.jsonrpc.js" charset="utf-8"></script>
+        <script src="option.js" charset="utf-8"></script>
+        <style media="screen">
+            input {
+                width: 100%;
+            }
+            .input {
+                margin-bottom: 10px;
+                overflow: hidden;
+            }
+            button {
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="input">
+            <label>rpc url:</label>
+        </div>
+        <div class="input">
+            <input type="text" id="url" value="" />
+        </div>
+        <div class="input">
+            <button type="button" id="save">Save</button>
+        </div>
+    </body>
+</html>
